@@ -48,15 +48,28 @@
                 </nav>
             </div>
            </header>
-       <main class="container mx-auto pb-16 px-4 min-h-screen flex flex-col items-start justify-start space-y-6 max-w-4xl items-center justify-start">
+       <main class="container mx-auto pb-16 px-4 min-h-screen flex flex-col items-start justify-start space-y-6 max-w-4xl items-center justify-start md:space-y-12">
         <h2 class="text-center md:pt-6 text-2xl md:text-4xl text-gray-900 font-bold text-center">Interactive Map!</h2>
-        <a href="https://www.mapntour.com/viewer/?c=487" target="_blank" rel="noopener noreferrer" class="text-center bg-blue-300 text-black hover:bg-blue-400 rounded px-4 py-2  mx-auto font-bold">View Map in New Tab</a>
+        <a href="https://www.mapntour.com/viewer/?c=487" target="_blank" rel="noopener noreferrer" class="text-center bg-blue-300 text-black hover:bg-blue-400 rounded px-4 py-2  mx-auto font-bold hidden md:flex">View Map in New Tab</a>
         <div class="flex flex-col justify-start items-start space-y-4">
             <p class="text-sm md:text-base">This presentation provides a new way to look at all the routes followed by the Mormon Battalion during 1846-47. 
                 The emphasis is to better understand where events recorded in their journals occurred. It is not so much a retelling of the entire story as it is an effort to put "what happened" to "where it happened."</p>
         </div>
 
-        <iframe style="border-radius:12px" src="https://www.mapntour.com/viewer/?c=487" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        
+
+        <iframe class="hidden md:flex" style="border-radius:12px" src="https://www.mapntour.com/viewer/?c=487" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <section class="bg-yellow-50 p-4 rounded-md flex flex-col items-center justify-center shadow-sm space-y-4">
+            <p class="font-bold text-center">You can download the Map N Tour app here:</p>
+            <a href="https://apps.apple.com/us/app/map-n-tour/id6498401728" target="_blank" rel="noopener noreferrer" class="text-center bg-blue-300 text-black hover:bg-blue-400 rounded px-4 py-2  mx-auto font-bold">Download the App</a>
+            <a href="https://apps.apple.com/us/app/map-n-tour/id6498401728" target="_blank" rel="noopener noreferrer">
+                <div class="flex flex-col items-center justify-center space-y-2">
+                    <img src="./images/map-n-tour-logo.jpg" alt="Map N Tour logo" class="w-3/4 md:w-1/2 mx-auto" />
+                    <img src="./images/map-n-tour-mobile-app-icon.png" alt="Map N Tour mobile app icon" class="mx-auto w-24" />
+                </div>
+            </a>
+        </section>
 
         <div class="w-full md:max-w-4xl mx-auto rounded-md overflow-hidden">
             <div class="relative w-full h-0 overflow-hidden max-w-full bg-black" style="padding-bottom: 56.25%">
