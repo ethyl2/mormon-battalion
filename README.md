@@ -68,23 +68,47 @@ Make sure you have the following installed:
 
 4. One tool that can be handy is chatGpt to turn normal text into HTML, with <p> tags and such, so try that out if you'd like!
 
-## Contributing
+## Tailwind CSS
 
-If you'd like to contribute, please submit a pull request.
+This project uses tailwindcss for styling.
+You can see what the different classes do in their [documentation](https://v2.tailwindcss.com/docs).
+
+## Handy Git Commands
 
 To make a new branch:
 
 ```
 git checkout -b name-of-branch-goes-here
+```
 
+To see what's changed and what branch you are on:
+```
 git status
+```
 
+To add all your changes to be staged in your upcoming commit:
+```
 git add -A
+```
 
+To commit your changes:
+```
 git commit -m "Your message describing the changes go here"
+```
 
+To push your changes to the repo in github.com:
+```
 git push origin name-of-branch-goes-here
 ```
+
+To sync your local main branch with the one on github.com:
+```
+git pull origin main
+```
+
+## Contributing
+
+If you'd like to contribute, please submit a pull request.
 
 ## License
 
