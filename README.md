@@ -1,7 +1,10 @@
 # mormon-battalion
 
+https://www.battaliontrek.com/
+
 This site is all about exploring the Mormon Battalion Trail, with information, maps, blogs, podcast and more!
 
+Also accessable at https://mormon-battalion.vercel.app/
 
 ## Getting Started
 
