@@ -72,6 +72,19 @@ Make sure you have the following installed:
 
 If you'd like to contribute, please submit a pull request.
 
+To make a new branch:
+
+```
+git checkout -b name-of-branch-goes-here
+
+git status
+
+git add -A
+
+git commit -m "Your message describing the changes go here"
+
+git push origin name-of-branch-goes-here
+```
 
 ## License
 
