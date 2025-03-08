@@ -103,18 +103,22 @@ git push origin name-of-branch-goes-here
 ```
 ### Time to Submit
 
-When you are ready to submit a pull request, go [here in Github](https://github.com/ethyl2/mormon-battalion).
-You can create a pull request and add me (ethyl2) as a reviewer.
+When you are ready to submit a pull request, go [here in Github](https://github.com/ethyl2/mormon-battalion). You can create a pull request there and add me as a reviewer.
 
-If you've recently worked on a branch, there should be a handy green button on the top "Compare and Pull Request" - click on it!
+**If you've recently worked on a branch, there should be a handy green button on the top "Compare and Pull Request" - click on it!**
 
 <img src="./images/compare-and-pull-request.png" alt="Compare and Pull Request" />
 
-Otherwise, you can click on the Branches tab and click on the 3 dots for your branch to select "New pull request."
+**Otherwise, you can click on the Branches tab and click on the 3 dots for your branch to select "New pull request."**
 
 <img src="./images/viewing-branches.png" alt="Viewing branches to submit a pull request" />
 
-Once I've reviewed your pull request and merged it to main, you can update your local repository:
+**To add me as a reviewer, click on the gear icon in the top right by "Reviewers" and pick me (ethyl2).**
+
+<img src="./images/reviewer.png" alt="Adding a reviewer" />
+
+
+**Once I've reviewed your pull request and merged it to main, you can update your local repository.**
 
 To sync your local main branch with the one on github.com:
 ```
