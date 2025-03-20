@@ -1,7 +1,10 @@
 # mormon-battalion
 
+https://www.battaliontrek.com/
+
 This site is all about exploring the Mormon Battalion Trail, with information, maps, blogs, podcast and more!
 
+Also accessable at https://mormon-battalion.vercel.app/
 
 ## Getting Started
 
@@ -62,29 +65,69 @@ Make sure you have the following installed:
 </a>
 ```
 
-2. Create a new file in the blog directory.
-
-3. Copy an existing file from the blog directory and paste into your new file. Change whatever you'd like!
+2. Make a copy of the template.html or an existing file in the blog directory. Rename it and then change whatever you'd like!
 
 4. One tool that can be handy is chatGpt to turn normal text into HTML, with <p> tags and such, so try that out if you'd like!
 
-## Contributing
+## Tailwind CSS
 
-If you'd like to contribute, please submit a pull request.
+This project uses tailwindcss for styling.
+You can see what the different classes do in their [documentation](https://v2.tailwindcss.com/docs).
+
+## Handy Git Commands
 
 To make a new branch:
 
 ```
 git checkout -b name-of-branch-goes-here
+```
 
+To see what's changed and what branch you are on:
+```
 git status
+```
 
+To add all your changes to be staged in your upcoming commit:
+```
 git add -A
+```
 
+To commit your changes:
+```
 git commit -m "Your message describing the changes go here"
+```
 
+To push your changes to the repo in github.com:
+```
 git push origin name-of-branch-goes-here
 ```
+### Time to Submit
+
+When you are ready to submit a pull request, go [here in Github](https://github.com/ethyl2/mormon-battalion). You can create a pull request there and add me as a reviewer.
+
+**If you've recently worked on a branch, there should be a handy green button on the top "Compare and Pull Request" - click on it!**
+
+<img src="./images/compare-and-pull-request.png" alt="Compare and Pull Request" />
+
+**Otherwise, you can click on the Branches tab and click on the 3 dots for your branch to select "New pull request."**
+
+<img src="./images/viewing-branches.png" alt="Viewing branches to submit a pull request" />
+
+**To add me as a reviewer, click on the gear icon in the top right by "Reviewers" and pick me (ethyl2).**
+
+<img src="./images/reviewer.png" alt="Adding a reviewer" />
+
+
+**Once I've reviewed your pull request and merged it to main, you can update your local repository.**
+
+To sync your local main branch with the one on github.com:
+```
+git pull origin main
+```
+
+## Contributing
+
+If you'd like to contribute, please submit a pull request.
 
 ## License
 
