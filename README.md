@@ -89,27 +89,27 @@ You can see what the different classes do in their [documentation](https://v2.ta
 
 To make a new branch:
 
-```
+```sh
 git checkout -b name-of-branch-goes-here
 ```
 
 To see what's changed and what branch you are on:
-```
+```sh
 git status
 ```
 
 To add all your changes to be staged in your upcoming commit:
-```
+```sh
 git add -A
 ```
 
 To commit your changes:
-```
+```sh
 git commit -m "Your message describing the changes go here"
 ```
 
 To push your changes to the repo in github.com:
-```
+```sh
 git push origin name-of-branch-goes-here
 ```
 ### Time to Submit
@@ -132,9 +132,39 @@ When you are ready to submit a pull request, go [here in Github](https://github.
 **Once I've reviewed your pull request and merged it to main, you can update your local repository.**
 
 To sync your local main branch with the one on github.com:
-```
+```sh
+git checkout main
 git pull origin main
 ```
+
+## Terminal Tips
+
+If you get this error message while trying to do any Git commands:
+```
+fatal: not a git repository (or any of the parent directories): .git
+```
+you are not currently in the exact directory that contains the Git repository; you might be in a parent directory instead.
+To fix this, follow these steps:
+
+1. **Check your current directory**  
+   Run the following command to see the contents of your current directory:
+```sh
+ls
+```
+Look for the name of the directory that contains your Git repository. For this project, it will be called 'mormon-battalion'.
+
+2. **Navigate to the correct directory**
+Use the cd command to change to the directory that contains the .git folder. Replace name-of-inner-directory-goes-here with the actual directory name:
+```sh
+cd name-of-inner-directory-goes-here
+```
+
+3. **Confirm you are in the Git repository**
+Run the following command to check if you are now in the correct directory:
+```sh
+git status
+```
+If you see the status of your Git repository, you are in the right place.
 
 ## Contributing
 
