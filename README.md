@@ -19,6 +19,17 @@ Make sure you have the following installed:
 
 ### Installation
 
+#### To open a terminal in VSCode:
+
+Look for the problem icons in the bottom left of the VSCode window and click on them.
+
+<img src="./images/problem-icons.png" alt="Compare and Pull Request" />
+
+Then click on TERMINAL in the bottom section that pops up.
+
+<img src="./images/terminal.png" alt="Compare and Pull Request" />
+
+
 1. **Clone the repository**  
    Open a terminal and run:
 
